@@ -1,0 +1,162 @@
+section#content {
+    margin-top: 90px;
+}
+
+small {
+    font-size: 12px;
+}
+
+
+
+.layout-caption {
+    height: 170px;
+    width: 870px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    position: absolute;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.title-hero {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.thumbnail-latets {
+    width: 270px;
+    height: 176px;
+    border-radius: 8px;
+    border: 1px solid #7D858C;
+}
+
+.label-category {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    font-size: 12px;
+}
+
+.card-title-latets {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.multi-line-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+
+.title-artikel {
+    font-size: 32px;
+}
+
+.image-artikel {
+    width: 700px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+
+/* ipad style responsive */
+@media screen and (max-width: 1008px) {
+    .img-hero {
+        width: 547px;
+        height: 289px;
+    }
+
+    .thumbnail-latets {
+        width: 203px;
+        height: 128px;
+    }
+
+    .layout-caption {
+        height: 150px;
+        width: 647px;
+    }
+
+    .card-hero {
+        width: 647px;
+    }
+
+    .title-hero {
+        font-size: 24px;
+    }
+
+    .label-category {
+        top: 6px;
+        right: 12px;
+    }
+
+    small {
+        font-size: 12px;
+    }
+
+    .image-artikel {
+        width: 430px;
+        height: 315px;
+    }
+}
+
+/* smartphone style responsive */
+@media screen and (max-width: 576px) {
+    .img-hero {
+        width: 305px;
+        height: 200px;
+        border: none;
+    }
+
+    .thumbnail-latets {
+        width: 143px;
+        height: 96px;
+        border: none;
+    }
+
+    .layout-caption {
+        height: 100px;
+        width: 305px;
+    }
+
+    .card-hero {
+        width: 305px;
+    }
+
+    .title-hero {
+        font-size: 16px;
+    }
+
+    .label-category {
+        top: 4px;
+        right: 14px;
+        font-size: 10px;
+    }
+
+    .list-judul {
+        font-size: 16px;
+    }
+
+    .list-label {
+        font-size: 12px;
+    }
+
+    .footer-body div.info {
+        width: 90%;
+    }
+
+    .title-artikel {
+        font-size: 24px;
+    }
+
+    .image-artikel {
+        width: 350px;
+        height: 175px;
+        max-width: 100%;
+    }
+}

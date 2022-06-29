@@ -1,0 +1,69 @@
+    .gradient-custom-2 {
+        background-color: black;
+    }
+    
+    @media (max-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (max-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+}
+
+.small {
+    font-size: clamp(10px, 3px + 1px, 4px);
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    position: relative;
+  }
+  
+  .small::before,
+  .small::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .small::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  
+  .small::after {
+    width: 0.125em;
+    background: #fff;
+    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+  
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  :root {
+    --bg-color: rgb(0, 0, 0);
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+  }

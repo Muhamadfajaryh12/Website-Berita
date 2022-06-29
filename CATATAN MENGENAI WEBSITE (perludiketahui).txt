@@ -1,0 +1,7 @@
+Untuk masuk kehalaman admin
+ID :admin
+PW :admin123
+Pembuatan ID admin hanya bisa dilakukan di Halaman Tambah Admin
+
+Beberapa fungsi ada yang tidak maksimal di hosting, di phpmyadmin berjalan dengan baik
+Search tidak bisa dilakukan saat masuk ke index.page(pagination) karena data yang diambil hanya dari index bukan index.page=?
