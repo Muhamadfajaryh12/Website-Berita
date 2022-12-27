@@ -1,5 +1,5 @@
 # Website-Berita
-Project Sederhana 
+Project UAS
 
 Merupakan Website Portal Berita
 Memiliki Fitur Sebagai Berikut :
